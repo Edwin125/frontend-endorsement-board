@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     color: #FFFFFF;
+    font-family: 'Josefin Sans';
 }
 
 img {
@@ -70,9 +71,6 @@ h1 {
     text-align: center;
 
     color: #04131C;
-}
-
-#publish-container{
 }
 
 #endor-text{
