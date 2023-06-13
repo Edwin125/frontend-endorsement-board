@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+img {
+    margin-top: 50px;
+    width: 90px;
+    height: 90px;
+    
+}
+
+h1 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    /* identical to box height */
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #111827;
+}
+
+#input-box {
+    width: 313px;
+    height: 118px;
+    border-radius: 8px;
+    background: #444059;
+    text-align: center;
+    border: none;
+    color: #8F8F8F;
+    font-size: 16px;
+}
+
+#sender-receiver-container {
+    margin-top: 8px;
+}
+
+.input-box-person {
+    width: 152.4px;
+    height: 40px;
+    background: #444059;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    color: #8F8F8F;
+    font-size: 16px;
+}
+
+#input-btn {
+    margin-top: 9px;
+    width: 317px;
+    height: 61px;
+    
+    background: #28A9F1;
+    border: 0px;
+    border-radius: 8px;
+    
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #04131C;
+}
+
+#publish-container{
+}
+
+#endor-text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+#endorsement-receiver{
+    margin: 3px 0px 13px 0px;
+    font-weight: bold;
+}
+
+#endorsement-sender {
+    margin: 13px 0px 3px 0px;
+    font-weight: bold;
+}
+
+#sender-container {
+    display:flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    list-style-type: none;
+}
+
+li {
+    width: 287px;
+    padding: 10px 15px ;
+    background: #FFFFFF;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 8px;
+    color: #1B1924;
+}
